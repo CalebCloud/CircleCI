@@ -2,6 +2,7 @@ import boto3
 from flask import Flask
 app = Flask(__name__)
 
+@app.route("/")
 def main():
     key_id = input('Enter your AWS access key credentials.')
     secret_key_id = input('Enter your AWS secret access key credentials.')
@@ -34,9 +35,8 @@ def main():
     ) 
     return(f'The link to your file {object_link}!')
 
-@app.route("/")
 if __name__ == "__main__":
-    app.run
+    app.run(debug=True, host='0.0.0.0')
 
 def Add(a, b):
     return a + b
