@@ -38,7 +38,7 @@ jobs:
       - run:
           name: Deploy
           command: |
-            ecs deploy $ECS_CLUSTER_NAME $ECS_SERVICE --image ecsDockerContainer nehoc/circle:$CIRCLE_SHA1 --timeout 1200 --ignore-warnings --region $AWS_REGION
+            ecs deploy $ECS_CLUSTER_NAME $ECS_SERVICE --image ecsDockerContainer nehoc/circledocker:$CIRCLE_SHA1 --timeout 1200 --ignore-warnings --region $AWS_REGION
 orbs:
   docker: circleci/docker@1.4.0      
 workflows:
