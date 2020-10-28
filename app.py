@@ -12,7 +12,8 @@ class ReusableForm(Form):
     secret_key_id = TextField('AWS SECRET KEY:', validators=[validators.DataRequired(), validators.Length(min=40, max=40)])
     bucket_name = TextField('Bucket Name:', validators=[validators.DataRequired()])
     object_name = TextField('Object Name:', validators=[validators.DataRequired()])
-    object_content = TextField('Object content:', validators=[validators.DataRequired()])
+    object_content = TextField('Object Content:', validators=[validators.DataRequired()])
+    aws_region = TextField('AWS Region:', validators=[validators.DataRequired()])
     
     @app.route("/", methods=['GET', 'POST'])
     def main():
@@ -25,6 +26,7 @@ class ReusableForm(Form):
             bucket_name    = request.form['bucket_name']
             object_name    = request.form['object_name']
             object_content = request.form['object_content']
+            aws_region     = request.form['aws_region']
 
         if form.validate():
             client = boto3.client(
@@ -37,7 +39,7 @@ class ReusableForm(Form):
                 ACL = 'public-read-write',
                 Bucket = bucket_name,
                 CreateBucketConfiguration={
-                    'LocationConstraint': 'us-west-1'
+                    'LocationConstraint': str(aws_region)
                 }
             )
 
@@ -49,7 +51,7 @@ class ReusableForm(Form):
                 ContentType='media-type'
             )
 
-            flash(f'The link to your new bucket and object is https://{bucket_name}.s3-us-west-2.amazonaws.com/{object_name} .')
+            flash(f'The link to your new bucket and object is https://{bucket_name}.s3-{aws_region}.amazonaws.com/{object_name} .')
 
         else:
             flash('Improper Input. Please fill out all fields again.')
