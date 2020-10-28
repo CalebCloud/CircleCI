@@ -38,13 +38,19 @@ Final Result Screenshots
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-Flask app screen
-![Flask app screen](http://media.discordapp.net/attachments/400469377998258179/771138782652399666/unknown.png "test")
+
+  
+Flask app screen  
+![Flask app screen](http://media.discordapp.net/attachments/400469377998258179/771138782652399666/unknown.png)&nbsp;&nbsp;&nbsp;&nbsp;
 
 
-Flask app after input
-![Flask app after input](https://media.discordapp.net/attachments/400469377998258179/771138857335914496/unknown.png)
+
+  
+Flask app after input  
+![Flask app after input](https://media.discordapp.net/attachments/400469377998258179/771138857335914496/unknown.png)&nbsp;&nbsp;&nbsp;&nbsp;
 
 
-Following the generated link
-![Following the generated link](https://media.discordapp.net/attachments/400469377998258179/771138980904960010/unknown.png)
+
+  
+Following the generated link  
+![Following the generated link](https://media.discordapp.net/attachments/400469377998258179/771138980904960010/unknown.png)&nbsp;&nbsp;&nbsp;&nbsp;
