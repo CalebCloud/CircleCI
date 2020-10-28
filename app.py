@@ -35,10 +35,7 @@ class ReusableForm(Form):
 
             client.create_bucket(
                 ACL = 'public-read-write',
-                Bucket = bucket_name,
-                CreateBucketConfiguration={
-                    'LocationConstraint': 'us-west-2'
-                }
+                Bucket = bucket_name
             )
 
             client.put_object(
