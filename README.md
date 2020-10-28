@@ -20,11 +20,12 @@ To setup the CircleCi pipeline, you need to declare the following environmental 
 - ECS_SERVICE           Title of the ECS service for CircleCI to deploy to.
 </pre>
 
+Setup for ECS can be found on circleci's blog (here)[https://circleci.com/blog/use-circleci-orbs-to-build-test-and-deploy-a-simple-go-application-to-aws-ecs/].
+
 <pre>
-To setup the AWS ECS to work with CircleCi.
-1. Navigate to ECS in the console and click on create cluster.
-
-
+Changes to make if you run this.
+- On line 40 of app.py, change 'LocationConstraint': 'us-west-1' to the region that you created your ECS cluster in.
+- 
 </pre>
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
