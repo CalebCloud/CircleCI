@@ -33,6 +33,6 @@ DISCLAIMER: This requires input of AWS Access keys. This app was created as an e
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Final Result Screenshots
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-![Screenshot 1](https://i.imgur.com/CASMeai.png)
-![Screenshot 2](https://i.imgur.com/mNDx3HO.png)
-![Screenshot 3](https://i.imgur.com/BkfMb9p.png)
+![Screenshot 1](https://media.discordapp.net/attachments/400469377998258179/771138782652399666/unknown.png?width=812&height=452)
+![Screenshot 2](https://media.discordapp.net/attachments/400469377998258179/771138857335914496/unknown.png?width=812&height=518)
+![Screenshot 3](https://media.discordapp.net/attachments/400469377998258179/771138980904960010/unknown.png)
