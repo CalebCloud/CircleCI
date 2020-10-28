@@ -32,7 +32,7 @@ Changes to make if you run this.
 </pre>
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-DISCLAIMER: This specific app requires input of AWS Access keys. This app was created as an example app that you would deploy with CircleCi. Entering your credentials anywhere is bad practice and is best not done. Access keys used in screenshot have been reset.
+DISCLAIMER: This specific app requires input of AWS Access keys. This app was created as an example application that you would deploy with CircleCi. Entering your credentials anywhere is bad practice and is best not done. Access keys used in screenshot have been reset.
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Final Result Screenshots
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
