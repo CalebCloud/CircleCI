@@ -1,4 +1,6 @@
 # CircleCI
+DISCLAIMER: This specific app requires input of AWS Access keys. This app was created as an example application that you would deploy with CircleCi. Entering your credentials anywhere is bad practice and is best not done. Access keys used in screenshot have been reset.
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 This was a personal project to design a docker flask app and setup a CI/CD pipeline with CircleCi to build and deploy my docker images to Amazon Web Services' Elastic Container Orchestration Service. 
 
@@ -31,18 +33,16 @@ Changes to make if you run this.
 - Make sure to keep your region consistent throughout everything.
 </pre>
 
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-DISCLAIMER: This specific app requires input of AWS Access keys. This app was created as an example application that you would deploy with CircleCi. Entering your credentials anywhere is bad practice and is best not done. Access keys used in screenshot have been reset.
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Final Result Screenshots
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-# Flask app screen
+
+# Final Result Screenshots
+
+Flask app screen
 ![Flask app screen](http://media.discordapp.net/attachments/400469377998258179/771138782652399666/unknown.png)  
 
 
-# Flask app after input
+Flask app after input
 ![Flask app after input](https://media.discordapp.net/attachments/400469377998258179/771138857335914496/unknown.png)  
 
 
-# Following the generated link
+Following the generated link
 ![Following the generated link](https://media.discordapp.net/attachments/400469377998258179/771138980904960010/unknown.png)  
