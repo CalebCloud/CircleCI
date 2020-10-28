@@ -20,7 +20,7 @@ To setup the CircleCi pipeline, you need to declare the following environmental 
 - ECS_SERVICE           Title of the ECS service for CircleCI to deploy to.
 </pre>
 
-Setup for ECS can be found on circleci's blog [here.](https://circleci.com/blog/use-circleci-orbs-to-build-test-and-deploy-a-simple-go-application-to-aws-ecs/)
+Setup for ECS can be found on [circleci's blog](https://circleci.com/blog/use-circleci-orbs-to-build-test-and-deploy-a-simple-go-application-to-aws-ecs/).
 
 <pre>
 Changes to make if you run this.
@@ -38,8 +38,13 @@ Final Result Screenshots
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
+Flask app screen
 ![Flask app screen](http://media.discordapp.net/attachments/400469377998258179/771138782652399666/unknown.png "test")
 
+
+Flask app after input
 ![Flask app after input](https://media.discordapp.net/attachments/400469377998258179/771138857335914496/unknown.png)
 
+
+Following the generated link
 ![Following the generated link](https://media.discordapp.net/attachments/400469377998258179/771138980904960010/unknown.png)
